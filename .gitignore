@@ -1,0 +1,10 @@
+*.filters
+*.user
+
+.vs
+x64
+out
+
+*.exe
+*.pdb
+*.ilk
