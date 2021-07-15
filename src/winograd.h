@@ -15,7 +15,7 @@
 #include <stdlib.h>
 
 // future extension
-#define winograd_preprocess_api __attribute__((pure))
+#define winograd_preprocess_api
 
 winograd_preprocess_api void winograd_preprocess(
 	const unsigned, const unsigned, const double[][*], /* m1 */
