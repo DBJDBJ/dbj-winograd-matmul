@@ -44,8 +44,6 @@ static inline matrix_data_type* alloc_matrix(unsigned rows, unsigned cols) {
 
 static inline void random_matrix(unsigned int count, matrix_data_type m[static count])
 {
-	srand((unsigned int)time(NULL));
-
 	for (unsigned j = 0; j < count; ++j)
 	{
 		m[j] = (matrix_data_type)(rand() / RAND_MAX);
@@ -54,6 +52,8 @@ static inline void random_matrix(unsigned int count, matrix_data_type m[static c
 
 static void app_start(void)
 {
+	srand((unsigned int)time(NULL));
+
 	app_data.m1 = alloc_matrix(app_data.N, app_data.N);
 	app_data.m2 = alloc_matrix(app_data.N, app_data.N);
 	app_data.naive_res = alloc_matrix(app_data.N, app_data.N);
