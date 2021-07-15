@@ -1,9 +1,5 @@
 //
-//  main.c
-//  strassen-winograd
-//
-//  Created by Pavel Kravets on 03.10.13.
-//  Copyright (c) 2013 Pavel Kravets. All rights reserved.
+//  Copyright (c) 2021 by dbj at dbj dot org. All rights reserved. https://dbj.org/license_dbj
 //
 
 #include "d:\MACHINE_WIDE\ubut\ubench.h"
